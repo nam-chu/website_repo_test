@@ -1,6 +1,6 @@
-name: "MyLabJournal"
+name: "Carleton Economics Research Club"
 navbar:
-  title: "MyLabJournal"
+  title: "Menu"
   left:
     - text: "Home"
       href: index.html
