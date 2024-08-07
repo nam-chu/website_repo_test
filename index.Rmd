@@ -17,27 +17,34 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **About us**
+# **The Missing Semester of Your Economics Degree** 
+## About us
 
-Add some text here.
+We are a student-lead research club that aims to provide undergraduate and graduate students with opportunities to become familiar with economics research.  
+
 
 ## Mission and Vision
 
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
+Getting into academic research can be difficult - especially in economics. That's why we felt the need for a club that could prepare students in bite-sized pieces. We feel strongly about providing students with opportunities to reach their full potential no matter their circumstances. 
 
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
-
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
-
-4. Change everything to make it your own.
+Our vision is simple: give all students, at any stage in their academic careers, the chance to explore what economics research is like and nurture their abilities so they leave Carleton with an extensive array of both industry and research skills. 
 
 
+## Goals and Objectives
+
+Some of the services we would like to provide are:
+
+1. Mentoring Services
+- Students will be paired with a mentor so that they can see how their studies can be used after they leave the school. 
+2. Research Help
+- Students will get to see what academic research is like from a student's perspective. 
+3. R Coding Chapters
+- We want to promote industry standard technology tools which students can use in their own analyses or as a research assistant. 
+- These tools are often not taught in the classroom due to lack of resources of time. 
+
+To learn more about our proposed services, please click on the navigation bar and select the service you would like to learn more about. 
 </div>
 <div class="col-sm-6">
 
-### [Crump Lab: Human Cognition and Performance](https://crumplab.github.io)
-
-<a href = "https://crumplab.github.io">
-![](images/logo.png)
 </a>
 </div>
