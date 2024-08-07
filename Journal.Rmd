@@ -10,13 +10,16 @@ output:
     #code_folding: hide
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
-```
-
 The Carleton Economics Research Club facilitates the matching of students and mentors. We believe that mentors play a strong role in the development of students. 
 
-# How it works
+## How it works
 
 1. Mentees fill out a survey with information about themselves. 
-2. Mentees are then matched with mentors that fit their description.
+2. Mentors fill out a survey with information about themselves.
+3. Based on their survey answers, mentees and mentors are matched.
+4. The mentee and mentor communicate and agree on a meeting location. 
+5. Mentors and mentees meet and discuss. 
+6. A feedback survey is answered by both parties. 
+7. Mentors and mentees can choose on a follow-up meeting. 
+
+## Sample Survey

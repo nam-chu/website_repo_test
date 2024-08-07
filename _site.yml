@@ -6,6 +6,6 @@ navbar:
       href: index.html
     - text: "Mentoring"
       href: Journal.html
-    - text: "Mentoring"
+    - text: "Academic Research Opportunities"
       href: Links.html
 output_dir: "docs"
