@@ -7,9 +7,8 @@ library(tufte)
 ```
 # Featured Student Researchers
 
-This section will feature some student researchers and their experiences with the research environment. We plan on mimicking this [page](google.com)
-from the department of economic's website. The idea is to students the chance to see a variety of 
-
+This section will feature some student researchers and their experiences with the research environment. We plan on mimicking this the featured alumni/students page
+from the department of economic's website. The idea is to students the chance to see a variety of student researchers and connect with them. 
 
 <style type="text/css">
 body {
@@ -84,6 +83,7 @@ Some stuff about why economics research is important.
 
 <div class="footer">
 Nam Chu<br>
+
 </div>
 </div>
 </div>
