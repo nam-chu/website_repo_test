@@ -5,7 +5,9 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Mentoring"
-      href: Journal.html
+      href: mentoring.html
     - text: "Academic Research Opportunities"
-      href: Links.html
+      href: academic.html
+    - text: "Featured Student Researchers"
+      href: researchers.html
 output_dir: "docs"

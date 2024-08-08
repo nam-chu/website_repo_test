@@ -1,0 +1,89 @@
+---
+output: html_document
+---
+
+```{r, echo=FALSE}
+library(tufte)
+```
+# Featured Student Researchers
+
+This section will feature some student researchers and their experiences with the research environment. We plan on mimicking this [page](google.com)
+from the department of economic's website. The idea is to students the chance to see a variety of 
+
+
+<style type="text/css">
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-box {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-box {
+    flex: 2;
+}
+
+.text-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    margin: 10px 0;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
+</style>
+
+<div class="container">
+<div class="image-box">
+
+<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Profile Image"> <caption> This is Nam Chu.</caption>
+</div>
+<div class="text-box">
+
+<h4>Why Economics?</h4>
+ 
+"A lot of people go into economics because they care about poverty."
+`r tufte::quote_footer('--- Michael Kremer')`
+
+<h4> What kind of research are you doing?</h4>
+I am not doing any research. But if I were, I would talk about it here.
+
+<h4>What made you interested in economics research?</h4>
+Some stuff about why economics research is important. 
+
+<div class="footer">
+Nam Chu<br>
+</div>
+</div>
+</div>

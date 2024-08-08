@@ -12,15 +12,33 @@ output: html_document
   margin-right: 10px;
 }
 
+.container-full {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
 </style>
 
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
+<div class="container-full">
+  <div class="row" style="padding-top: 30px;">
 
 # **The Missing Semester of Your Economics Degree** 
 ## About us
 
-We are a student-lead research club that aims to provide undergraduate and graduate students with opportunities to become familiar with economics research.  
+We are a student-led research club that aims to provide undergraduate and graduate students with opportunities to become familiar with economics research.  
 
 
 ## Mission and Vision
@@ -43,8 +61,6 @@ Some of the services we would like to provide are:
 - These tools are often not taught in the classroom due to lack of resources of time. 
 
 To learn more about our proposed services, please click on the navigation bar and select the service you would like to learn more about. 
-</div>
-<div class="col-sm-6">
-
-</a>
+    </div>
+  </div>
 </div>

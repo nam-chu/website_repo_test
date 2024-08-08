@@ -11,7 +11,7 @@
 
 
 
-<title>Nam’s Website</title>
+<title>Mentoring</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -266,97 +342,35 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Nam’s Website</h1>
+<h1 class="title toc-ignore">Mentoring</h1>
 
 </div>
 
 
-<style type="text/css">
-.title {
-  display: none;
-}
-
-#getting-started img {
-  margin-right: 10px;
-}
-
-.container-full {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.full-width {
-  width: 100%;
-}
-
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.row {
-  margin: 0;
-}
-</style>
-<div class="container-full">
-<div id="the-missing-semester-of-your-economics-degree"
-class="section level1 row" style="padding-top: 30px;">
-<h1><strong>The Missing Semester of Your Economics Degree</strong></h1>
-<div id="about-us" class="section level2">
-<h2>About us</h2>
-<p>We are a student-led research club that aims to provide undergraduate
-and graduate students with opportunities to become familiar with
-economics research.</p>
-</div>
-<div id="mission-and-vision" class="section level2">
-<h2>Mission and Vision</h2>
-<p>Getting into academic research can be difficult - especially in
-economics. That’s why we felt the need for a club that could prepare
-students in bite-sized pieces. We feel strongly about providing students
-with opportunities to reach their full potential no matter their
-circumstances.</p>
-<p>Our vision is simple: give all students, at any stage in their
-academic careers, the chance to explore what economics research is like
-and nurture their abilities so they leave Carleton with an extensive
-array of both industry and research skills.</p>
-</div>
-<div id="goals-and-objectives" class="section level2">
-<h2>Goals and Objectives</h2>
-<p>Some of the services we would like to provide are:</p>
+<p>The Carleton Economics Research Club facilitates the matching of
+students and mentors. We believe that mentors play a strong role in the
+development of students.</p>
+<div id="how-it-works" class="section level2">
+<h2>How it works</h2>
 <ol style="list-style-type: decimal">
-<li>Mentoring Services</li>
+<li>Mentees fill out a survey with information about themselves.</li>
+<li>Mentors fill out a survey with information about themselves.</li>
+<li>Based on their survey answers, mentees and mentors are matched.</li>
+<li>The mentee and mentor communicate and agree on a meeting
+location.</li>
+<li>Mentors and mentees meet and discuss.</li>
+<li>A feedback survey is answered by both parties.</li>
+<li>Mentors and mentees can choose on a follow-up meeting.</li>
 </ol>
-<ul>
-<li>Students will be paired with a mentor so that they can see how their
-studies can be used after they leave the school.</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Research Help</li>
-</ol>
-<ul>
-<li>Students will get to see what academic research is like from a
-student’s perspective.</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>R Coding Chapters</li>
-</ol>
-<ul>
-<li>We want to promote industry standard technology tools which students
-can use in their own analyses or as a research assistant.</li>
-<li>These tools are often not taught in the classroom due to lack of
-resources of time.</li>
-</ul>
-To learn more about our proposed services, please click on the
-navigation bar and select the service you would like to learn more
-about.
 </div>
-</div>
-</div>
+<div id="sample-survey" class="section level2">
+<h2>Sample Survey</h2>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -389,6 +403,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

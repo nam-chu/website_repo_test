@@ -1,0 +1,66 @@
+---
+output: html_document
+---
+
+# Academic Research Help
+This is a sample of page that could be of good use to students. Students who apply to a research internship for the first time may struggle in writing a winning proposal. As these internships are competitive, this page highlights how helpful a 'Question and Answer' page may be to a first-time applicant.
+
+  This service is unique because it details **how** students can think of, write and finally submit a winning proposal. It also gives students a unique opportunity to hear about the experience from a successful candidate themselves, rather than just see their final work. 
+
+<hr> </hr>
+
+<h4> Writing a Winning CUROP Application </h4>
+
+In this section, we highlight the work by [Abigail Meloche](https://carleton.ca/economics/2023/second-year-b-econ-student-abigail-meloche-announced-as-successful-candidate-of-curop-2023/) who was a recipient of the 2023 Carleton Undergraduate Research Opportunity Program (CUROP) summer internship. 
+
+CUROP gives undergraduate students the opportunity to develop their own research proposal and work under the supervision of a professor over the summer. 
+
+<center> ![Abigail Meloche is a fourth-year economics student, concentrating in Mathematics, Quantitative Economics and Theory. ](/Users/home_folder/test_github/website_repo_test/images/abigail_portrait.jpeg){width=75%} </center>
+
+<hr> </hr>
+
+
+
+<h4> <u> **Questions about the Candidate** </u> </h4>
+
+**Q. Why did you decide to major in economics?** 
+
+  **A.** 
+
+**Q. Did you have any previous research experience prior to CUROP? Was this your first exposure to research in general? **
+
+  **A.**
+  
+<h4> <u> **Questions about the Application Process** </u> </h4>
+
+**Q. How did you hear about the CUROP research internship?**
+
+  **A.**
+
+**Q. How long did it take to put the application package together? **
+
+  **A. **
+<h4> <u> **Questions about the Research Proposal** </u> </h4>
+
+**Q. Let’s go through your research proposal. All applicants are required to present a project proposal and methodology. I could imagine this to be very challenging for students, how did you approach this problem?**
+
+  **A. **
+
+**Q. What was the most difficult part about coming up with the project proposal? **
+
+  **A.**
+
+**Q. Can you describe the internship experience? What was your daily routine like?**
+
+  **A.**
+
+**Q. How did the internship change your approach to research as a student?**
+
+  **A.**
+
+**Q. What did you learn from this internship that you couldn’t have learned otherwise?**
+
+  **A.** 
+
+
+
