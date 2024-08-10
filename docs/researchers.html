@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -254,6 +330,18 @@ $(document).ready(function () {
 <li>
   <a href="researchers.html">Featured Student Researchers</a>
 </li>
+<li>
+  <a href="learning.html">Experiential Learning</a>
+</li>
+<li>
+  <a href="content.html">Content Creation</a>
+</li>
+<li>
+  <a href="professors.html">Featured Professors</a>
+</li>
+<li>
+  <a href="pathways.html">Learning Pathway</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -273,88 +361,208 @@ $(document).ready(function () {
 <div id="featured-student-researchers" class="section level1">
 <h1>Featured Student Researchers</h1>
 <p>This section will feature some student researchers and their
-experiences with the research environment. We plan on mimicking this the
-featured alumni/students page from the department of economic’s website.
-The idea is to students the chance to see a variety of student
-researchers and connect with them.</p>
+experiences with the research environment. We plan on mimicking this <a
+href="https://carleton.ca/economics/department-of-economics-student-ambassadors/">page</a>
+from the department of economic’s website. The idea is to students the
+chance to see a variety of student researchers and connect with
+them.</p>
+<!-- This is a comment -->
 <style type="text/css">
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
 }
 
-.container {
+.profile-container {
     display: flex;
-    flex-wrap: wrap;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
     max-width: 800px;
     margin: auto;
+    align-items: flex-start;    
+    margin-bottom: 20px;
 }
 
-.image-box {
+.profile-image {
     flex: 1;
     margin-right: 20px;
-    max-width: 300px;
 }
 
-.image-box img {
+.profile-image img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.text-box {
+.profile-info {
     flex: 2;
 }
 
-.text-box h3 {
+.profile-info h4 {
     color: #333;
     margin-bottom: 10px;
 }
 
-.text-box p {
+.profile-info p {
     margin: 10px 0;
 }
-
-.highlight {
-    color: red;
-    font-weight: bold;
-}
-
-.footer {
-    margin-top: 20px;
-    font-weight: bold;
-}
 </style>
-<div class="container">
-<div class="image-box">
-<img src="images/nam_headshot2.jpg" alt="Profile Image">
+<div id="nam-chu" class="section level2">
+<h2>Nam Chu</h2>
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
+
+<!-- This is the image -->
+<img src="images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
 <caption>
-This is Nam Chu.
+<center>
+<strong>B.MATH/B.ECON 3rd Year</strong>
+<center>
 </caption>
 </div>
-<div class="text-box">
+<!-- Profile part  -->
+<div class="profile-info">
+<!-- This is the first question  -->
 <h4>
-Why Economics?
+Why did you choose to study Economics at Carleton?
 </h4>
-“A lot of people go into economics because they care about poverty.”
-<footer>
-— Michael Kremer
-</footer>
+<p>
+I chose Economics because of the important impact it has in our daily
+lives such as monetary policy decisions, and I desire to understand and
+analyze the impact of these economic decisions.
+</p>
+<!-- Second question  -->
 <h4>
-What kind of research are you doing?
+What piece of advice would you give to a student that wants to get
+involved with academic research?
 </h4>
-<p>I am not doing any research. But if I were, I would talk about it
-here.</p>
+<p>
+Being part of the Bank of Canada Governor’s Challenge. I got the
+opportunity to work with a great team and Professor Raúl Razo-Garcia.
+</p>
+<!-- Third question -->
 <h4>
-What made you interested in economics research?
+What piece of advice would you give to a student that wants to get
+involved with academic research?
 </h4>
-<p>Some stuff about why economics research is important.</p>
-<div class="footer">
-<p>Nam Chu<br></p>
+<p>
+I intend on pursuing a Master’s degree in Economics.
+</p>
+<!-- Fourth question -->
+<h4>
+Where can students reach you?
+</h4>
+<p>
+I intend on pursuing a Master’s degree in Economics.
+</p>
+</div>
+</div>
+</div>
+<div id="student-two" class="section level2">
+<h2>Student Two</h2>
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
+
+<!-- This is the image -->
+<img src="images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
+<caption>
+<center>
+<strong>B.MATH/B.ECON 3rd Year</strong>
+<center>
+</caption>
+</div>
+<!-- Profile part  -->
+<div class="profile-info">
+<!-- This is the first question  -->
+<h4>
+Why did you choose to study Economics at Carleton?
+</h4>
+<p>
+I chose Economics because of the important impact it has in our daily
+lives such as monetary policy decisions, and I desire to understand and
+analyze the impact of these economic decisions.
+</p>
+<!-- Second question  -->
+<h4>
+What piece of advice would you give to a student that wants to get
+involved with academic research?
+</h4>
+<p>
+Being part of the Bank of Canada Governor’s Challenge. I got the
+opportunity to work with a great team and Professor Raúl Razo-Garcia.
+</p>
+<!-- Third question -->
+<h4>
+What piece of advice would you give to a student that wants to get
+involved with academic research?
+</h4>
+<p>
+I intend on pursuing a Master’s degree in Economics.
+</p>
+<!-- Fourth question -->
+<h4>
+Where can students reach you?
+</h4>
+<p>
+I intend on pursuing a Master’s degree in Economics.
+</p>
+</div>
+</div>
+</div>
+<div id="student-three" class="section level2">
+<h2>Student Three</h2>
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
+
+<!-- This is the image -->
+<img src="images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
+<caption>
+<center>
+<strong>B.MATH/B.ECON 3rd Year</strong>
+<center>
+</caption>
+</div>
+<!-- Profile part  -->
+<div class="profile-info">
+<!-- This is the first question  -->
+<h4>
+Why did you choose to study Economics at Carleton?
+</h4>
+<p>
+I chose Economics because of the important impact it has in our daily
+lives such as monetary policy decisions, and I desire to understand and
+analyze the impact of these economic decisions.
+</p>
+<!-- Second question  -->
+<h4>
+What piece of advice would you give to a student that wants to get
+involved with academic research?
+</h4>
+<p>
+Being part of the Bank of Canada Governor’s Challenge. I got the
+opportunity to work with a great team and Professor Raúl Razo-Garcia.
+</p>
+<!-- Third question -->
+<h4>
+What piece of advice would you give to a student that wants to get
+involved with academic research?
+</h4>
+<p>
+I intend on pursuing a Master’s degree in Economics.
+</p>
+<!-- Fourth question -->
+<h4>
+Where can students reach you?
+</h4>
+<p>
+I intend on pursuing a Master’s degree in Economics.
+</p>
 </div>
 </div>
 </div>
@@ -362,6 +570,8 @@ What made you interested in economics research?
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -394,6 +604,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

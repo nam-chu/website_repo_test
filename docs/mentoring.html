@@ -330,6 +330,18 @@ div.tocify {
 <li>
   <a href="researchers.html">Featured Student Researchers</a>
 </li>
+<li>
+  <a href="learning.html">Experiential Learning</a>
+</li>
+<li>
+  <a href="content.html">Content Creation</a>
+</li>
+<li>
+  <a href="professors.html">Featured Professors</a>
+</li>
+<li>
+  <a href="pathways.html">Learning Pathway</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -347,24 +359,100 @@ div.tocify {
 </div>
 
 
+<!-- This is a comment -->
+<style type="text/css">
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.profile-container {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    align-items: flex-start;    
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.profile-info {
+    flex: 2;
+}
+
+.profile-info h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
+</style>
 <p>The Carleton Economics Research Club facilitates the matching of
 students and mentors. We believe that mentors play a strong role in the
 development of students.</p>
-<div id="how-it-works" class="section level2">
-<h2>How it works</h2>
-<ol style="list-style-type: decimal">
-<li>Mentees fill out a survey with information about themselves.</li>
-<li>Mentors fill out a survey with information about themselves.</li>
-<li>Based on their survey answers, mentees and mentors are matched.</li>
-<li>The mentee and mentor communicate and agree on a meeting
-location.</li>
-<li>Mentors and mentees meet and discuss.</li>
-<li>A feedback survey is answered by both parties.</li>
-<li>Mentors and mentees can choose on a follow-up meeting.</li>
-</ol>
+<div id="featured-mentors" class="section level2">
+<h2><em> Featured Mentors </em></h2>
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
+
+<!-- This is the image -->
+<img src="images/alex_headshot.jpeg" alt="Portrait of Alex.">
+<caption>
+<center>
+<strong>Alex Nsakanda</strong> <br/> <strong>Master’s Candidate,
+Financial Economics</strong>
+<center>
+</caption>
 </div>
-<div id="sample-survey" class="section level2">
-<h2>Sample Survey</h2>
+<!-- Profile part  -->
+<div class="profile-info">
+<!-- This is the first question  -->
+<h4>
+Why did you choose to study Economics at Carleton?
+</h4>
+<p>
+I chose to study Economics at Carleton because…
+</p>
+<!-- Second question  -->
+<h4>
+What makes mentoring important to you?
+</h4>
+<p>
+Mentoring is important to me because…
+</p>
+<!-- Third question -->
+<h4>
+What is one piece of advice you would give to your former self?
+</h4>
+<p>
+One piece of advice I would give to my former self would be…
+</p>
+<!-- Fourth question -->
+<h4>
+Where can students reach you?
+</h4>
+<p>
+You can reach me at…
+</p>
+</div>
+</div>
 </div>
 
 
@@ -416,7 +504,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {

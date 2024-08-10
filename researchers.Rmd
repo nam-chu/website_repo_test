@@ -1,89 +1,159 @@
 ---
-output: html_document
+output: 
+    html_document:
+        toc: true
+        toc_float: true
+        collapsed: false
+        number_sections: false
+        toc_depth: 3
 ---
-
-```{r, echo=FALSE}
-library(tufte)
-```
 # Featured Student Researchers
 
-This section will feature some student researchers and their experiences with the research environment. We plan on mimicking this the featured alumni/students page
+This section will feature some student researchers and their experiences with the research environment. We plan on mimicking this [page](https://carleton.ca/economics/department-of-economics-student-ambassadors/)
 from the department of economic's website. The idea is to students the chance to see a variety of student researchers and connect with them. 
 
+<!-- This is a comment -->
+
 <style type="text/css">
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
 }
 
-.container {
+.profile-container {
     display: flex;
-    flex-wrap: wrap;
     background-color: white;
     border: 1px solid #ccc;
     padding: 20px;
     max-width: 800px;
     margin: auto;
+    align-items: flex-start;    
+    margin-bottom: 20px;
 }
 
-.image-box {
+.profile-image {
     flex: 1;
     margin-right: 20px;
-    max-width: 300px;
 }
 
-.image-box img {
+.profile-image img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.text-box {
+.profile-info {
     flex: 2;
 }
 
-.text-box h3 {
+.profile-info h4 {
     color: #333;
     margin-bottom: 10px;
 }
 
-.text-box p {
+.profile-info p {
     margin: 10px 0;
-}
-
-.highlight {
-    color: red;
-    font-weight: bold;
-}
-
-.footer {
-    margin-top: 20px;
-    font-weight: bold;
 }
 </style>
 
-<div class="container">
-<div class="image-box">
+## Nam Chu
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
 
-<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Profile Image"> <caption> This is Nam Chu.</caption>
+<!-- This is the image -->
+<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
+<caption> <center> **B.MATH/B.ECON 3rd Year** <center> </caption>
 </div>
-<div class="text-box">
 
-<h4>Why Economics?</h4>
- 
-"A lot of people go into economics because they care about poverty."
-`r tufte::quote_footer('--- Michael Kremer')`
+<!-- Profile part  -->
+<div class="profile-info">
 
-<h4> What kind of research are you doing?</h4>
-I am not doing any research. But if I were, I would talk about it here.
+<!-- This is the first question  -->
+<h4>Why did you choose to study Economics at Carleton?</h4>
+<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
 
-<h4>What made you interested in economics research?</h4>
-Some stuff about why economics research is important. 
+<!-- Second question  -->
+<h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
+<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
 
-<div class="footer">
-Nam Chu<br>
+<!-- Third question -->
+<h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
+
+<!-- Fourth question -->
+<h4>Where can students reach you?</h4>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
 
 </div>
 </div>
+
+## Student Two
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
+
+<!-- This is the image -->
+<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
+<caption> <center> **B.MATH/B.ECON 3rd Year** <center> </caption>
 </div>
+
+<!-- Profile part  -->
+<div class="profile-info">
+
+<!-- This is the first question  -->
+<h4>Why did you choose to study Economics at Carleton?</h4>
+<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
+
+<!-- Second question  -->
+<h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
+<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
+
+<!-- Third question -->
+<h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
+
+<!-- Fourth question -->
+<h4>Where can students reach you?</h4>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
+
+</div>
+</div>
+
+## Student Three
+<!-- This is the first Profile -->
+<div class="profile-container">
+<div class="profile-image">
+
+<!-- This is the image -->
+<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
+<caption> <center> **B.MATH/B.ECON 3rd Year** <center> </caption>
+</div>
+
+<!-- Profile part  -->
+<div class="profile-info">
+
+<!-- This is the first question  -->
+<h4>Why did you choose to study Economics at Carleton?</h4>
+<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
+
+<!-- Second question  -->
+<h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
+<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
+
+<!-- Third question -->
+<h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
+
+<!-- Fourth question -->
+<h4>Where can students reach you?</h4>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
+
+</div>
+</div>
+
+
+
+

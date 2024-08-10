@@ -1,0 +1,8 @@
+---
+title: "Content"
+output: html_document
+---
+In this section, we showcase the potential for content creation in the form of written works that can be tied to research. Some topics that are up for discussion can be: 
+1. What is economics research?
+2. Where does funding come from?
+3. What makes a good RA?

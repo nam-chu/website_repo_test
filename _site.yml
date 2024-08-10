@@ -10,4 +10,12 @@ navbar:
       href: academic.html
     - text: "Featured Student Researchers"
       href: researchers.html
+    - text: "Experiential Learning"
+      href: learning.html
+    - text: "Content Creation"
+      href: content.html
+    - text: "Featured Professors"
+      href: professors.html
+    - text: "Learning Pathway"
+      href: pathways.html
 output_dir: "docs"
