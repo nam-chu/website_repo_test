@@ -45,7 +45,7 @@ body {
 }
 
 .profile-info h4 {
-    color: #333;
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -56,14 +56,15 @@ body {
 The Carleton Economics Research Club facilitates the matching of students and mentors. We believe that mentors play a strong role in the development of students. 
 
 ## <em> Featured Mentors </em>
+### Internal Mentors 
+
 <!-- This is the first Profile -->
 <div class="profile-container">
 <div class="profile-image">
 
 <!-- This is the image -->
 <img src="/Users/home_folder/test_github/website_repo_test/images/alex_headshot.jpeg" alt="Portrait of Alex.">
-<caption> <center> **Alex Nsakanda** <br/>
-**Master's Candidate, Financial Economics** <center> </caption>
+<caption> <center> **Alex Nsakanda <br/> Master's Candidate, Financial Economics** <center> </caption>
 </div>
 
 <!-- Profile part  -->
@@ -71,54 +72,37 @@ The Carleton Economics Research Club facilitates the matching of students and me
 
 <!-- This is the first question  -->
 <h4>Why did you choose to study Economics at Carleton?</h4>
-<p>I chose to study Economics at Carleton because...</p>
+<p>I was interested in learning more about Public Economics; Carleton’s Masters program in Economics is well suited for this. <br/>
+
+Moreover, I was strongly intrigued by Carleton’s concentration in Financial Economics, as it involves courses such as: Asset Pricing, Financial Markets, Financial Econometrics, Monetary Economics, and much more. <br/>
+
+I believe that pursuing my above interests at Carleton and adding them to my Bachelor’s in Business Economics would help me better achieve my career aspirations.
+</p>
 
 <!-- Second question  -->
 <h4>What makes mentoring important to you?</h4>
-<p>Mentoring is important to me because...</p>
+<!-- Second answer  -->
+<p>Mentoring is important to me because I have been fortunate enough to be a part of several successful and culturally-driven organizations that included a wide array of mentors and alumni - both from academic and athletic sectors.
+<br/>
+
+In combining my past experiences, lessons and current ambitions, my goal is to guide students as they transition towards a non-academic career and to help them build confidence.
+</p>
 
 <!-- Third question -->
 <h4>What is one piece of advice you would give to your former self?</h4>
-<p>One piece of advice I would give to my former self would be...</p>
+
+<!-- Answer -->
+<p>Find your talent in your 20’s.</p>
 
 <!-- Fourth question -->
 <h4>Where can students reach you?</h4>
-<p>You can reach me at... </p>
+<p><a href="http://linkedin.com/in/alexandre-nsakanda" target = "_blank"> LinkedIn </a> <br/>
+
+Email: alexandrensakanda@cmail.carleton.ca</p>
 
 </div>
 </div>
 
-<!-- This is the first Profile -->
-<div class="profile-container">
-<div class="profile-image">
-
-<!-- This is the image -->
-<img src="/Users/home_folder/test_github/website_repo_test/images/maxwell_dogbe_headshot.jpeg" alt="Portrait of Maxwell.">
-<caption> <center> **Maxwell Dogbe** <br/>
-**Master's Candidate, Financial Economics** <center> </caption>
-</div>
-
-<!-- Profile part  -->
-<div class="profile-info">
-
-<!-- This is the first question  -->
-<h4>Why did you choose to study Economics at Carleton?</h4>
-<p>I chose to study Economics at Carleton because...</p>
-
-<!-- Second question  -->
-<h4>What makes mentoring important to you?</h4>
-<p>Mentoring is important to me because...</p>
-
-<!-- Third question -->
-<h4>What is one piece of advice you would give to your former self?</h4>
-<p>One piece of advice I would give to my former self would be...</p>
-
-<!-- Fourth question -->
-<h4>Where can students reach you?</h4>
-<p>You can reach me at... </p>
-
-</div>
-</div>
 
 
 

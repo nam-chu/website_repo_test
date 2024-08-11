@@ -12,8 +12,6 @@ output:
 This section will feature some student researchers and their experiences with the research environment. We plan on mimicking this [page](https://carleton.ca/economics/department-of-economics-student-ambassadors/)
 from the department of economic's website. The idea is to students the chance to see a variety of student researchers and connect with them. 
 
-<!-- This is a comment -->
-
 <style type="text/css">
 
 body {
@@ -49,7 +47,7 @@ body {
 }
 
 .profile-info h4 {
-    color: #333;
+    color: red;
     margin-bottom: 10px;
 }
 
@@ -58,14 +56,14 @@ body {
 }
 </style>
 
-## Nam Chu
+## Nora Abdelsamie
 <!-- This is the first Profile -->
 <div class="profile-container">
 <div class="profile-image">
 
 <!-- This is the image -->
-<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
-<caption> <center> **B.MATH/B.ECON 3rd Year** <center> </caption>
+<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nora A.">
+<caption> <center> **B.ECON 3rd Year** <center> </caption>
 </div>
 
 <!-- Profile part  -->
@@ -73,87 +71,19 @@ body {
 
 <!-- This is the first question  -->
 <h4>Why did you choose to study Economics at Carleton?</h4>
-<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
+<p></p>
 
 <!-- Second question  -->
 <h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
-<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
+<p></p>
 
 <!-- Third question -->
 <h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
-<p>I intend on pursuing a Master’s degree in Economics.</p>
+<p></p>
 
 <!-- Fourth question -->
 <h4>Where can students reach you?</h4>
-<p>I intend on pursuing a Master’s degree in Economics.</p>
+<p></p>
 
 </div>
 </div>
-
-## Student Two
-<!-- This is the first Profile -->
-<div class="profile-container">
-<div class="profile-image">
-
-<!-- This is the image -->
-<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
-<caption> <center> **B.MATH/B.ECON 3rd Year** <center> </caption>
-</div>
-
-<!-- Profile part  -->
-<div class="profile-info">
-
-<!-- This is the first question  -->
-<h4>Why did you choose to study Economics at Carleton?</h4>
-<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
-
-<!-- Second question  -->
-<h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
-<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
-
-<!-- Third question -->
-<h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
-<p>I intend on pursuing a Master’s degree in Economics.</p>
-
-<!-- Fourth question -->
-<h4>Where can students reach you?</h4>
-<p>I intend on pursuing a Master’s degree in Economics.</p>
-
-</div>
-</div>
-
-## Student Three
-<!-- This is the first Profile -->
-<div class="profile-container">
-<div class="profile-image">
-
-<!-- This is the image -->
-<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nam Chu.">
-<caption> <center> **B.MATH/B.ECON 3rd Year** <center> </caption>
-</div>
-
-<!-- Profile part  -->
-<div class="profile-info">
-
-<!-- This is the first question  -->
-<h4>Why did you choose to study Economics at Carleton?</h4>
-<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
-
-<!-- Second question  -->
-<h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
-<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
-
-<!-- Third question -->
-<h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
-<p>I intend on pursuing a Master’s degree in Economics.</p>
-
-<!-- Fourth question -->
-<h4>Where can students reach you?</h4>
-<p>I intend on pursuing a Master’s degree in Economics.</p>
-
-</div>
-</div>
-
-
-
-

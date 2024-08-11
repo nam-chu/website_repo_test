@@ -1,6 +1,6 @@
 name: "Carleton Economics Research Club"
 navbar:
-  title: "Menu"
+  type: inverse
   left:
     - text: "Home"
       href: index.html

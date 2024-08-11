@@ -7,6 +7,8 @@ In this section, we showcase some possible end-to-end projects that students may
 <hr> </hr>
 
 Imitation is one of the highest forms flattery. Thus, to showcase the potential of this page, we will demo an economics paper replication. <br/>
-Paper replication is an important exercise in making sure that the empirical methods used by researchers is robust. 
+Paper replication is an important exercise in making sure that the empirical methods used by researchers is robust, that is capable to be upheld under close scrutiny. <br/>
+
+The paper that we are examining today was written by Dr. Vivian Hoffmann, 
 
 
