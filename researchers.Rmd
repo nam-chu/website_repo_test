@@ -62,8 +62,8 @@ body {
 <div class="profile-image">
 
 <!-- This is the image -->
-<img src="/Users/home_folder/test_github/website_repo_test/images/nam_headshot2.jpg" alt="Portrait of Nora A.">
-<caption> <center> **B.ECON 3rd Year** <center> </caption>
+<img src="/Users/home_folder/test_github/website_repo_test/images/nora_headshot.jpeg" alt="Portrait of Nora A.">
+<caption> <center> **B.ECON 3rd Year, <br/> Concentration in Data Science minor in Health Science** <center> </caption>
 </div>
 
 <!-- Profile part  -->
@@ -71,19 +71,23 @@ body {
 
 <!-- This is the first question  -->
 <h4>Why did you choose to study Economics at Carleton?</h4>
-<p></p>
+<p>I chose to study Economics at Carleton for its strong emphasis on math and statistics, which provides a solid foundation for research and equips me with analytical skills applicable across various fields. This balance aligns well with my goal of becoming an academic researcher.
+</p>
 
 <!-- Second question  -->
 <h4>What piece of advice would you give to a student that wants to get involved with academic research?</h4>
-<p></p>
+<p>I am currently researching the cost variations in CAR-T therapy manufacturing based on patient characteristics to assess its economic impact and improve accessibility. Additionally, I am analyzing patient's quality of life through utility analysis, considering baseline data at different stages of CAR-T therapy and Febrile Neutropenia in Early Stage Breast Cancer.
+</p>
 
 <!-- Third question -->
 <h4>What piece of advice would you give to a student that wants to get involved with academic research? </h4>
-<p></p>
+<p> I advise consistently engaging in literature reading in your areas of interest, seeking a supervisor or mentor with aligned research interests, and building connections within the field. These steps will help deepen your understanding and ensure that academic research is the right path for you.
+</p>
 
 <!-- Fourth question -->
 <h4>Where can students reach you?</h4>
-<p></p>
+<p>I'm happy to connect on LinkedIn at: https://www.linkedin.com/in/nora-abdelsamie-697708207/ <br/>
+or by email: noraabdelsamie@cmail.carleton.ca</p>
 
 </div>
 </div>
