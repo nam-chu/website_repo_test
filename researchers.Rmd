@@ -63,7 +63,7 @@ body {
 
 <!-- This is the image -->
 <img src="/Users/home_folder/test_github/website_repo_test/images/nora_headshot.jpeg" alt="Portrait of Nora A.">
-<caption> <center> **B.ECON 3rd Year, <br/> Concentration in Data Science minor in Health Science** <center> </caption>
+<caption> <center> **B.ECON 3rd Year, <br/> Concentration in Data Science and minor in Health Science** <center> </caption>
 </div>
 
 <!-- Profile part  -->
