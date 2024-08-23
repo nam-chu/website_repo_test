@@ -1,0 +1,10 @@
+---
+title: "Inspirations"
+author: "Nam Chu"
+date: "2024-08-13"
+output: html_document
+---
+Here are some websites that we are inspired by: 
+
+[Freecodecamp](https://www.freecodecamp.org/learn/)
+

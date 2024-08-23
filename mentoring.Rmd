@@ -52,10 +52,54 @@ body {
 .profile-info p {
     margin: 10px 0;
 }
-</style>
-The Carleton Economics Research Club facilitates the matching of students and mentors. We believe that mentors play a strong role in the development of students. 
 
-## <em> Featured Mentors </em>
+hr {
+color: red;
+}
+</style>
+
+We view mentorship as a way of students to get their questions answered. Our mentorship program pairs students with mentors who can then help them wade through any questions that they may have. 
+
+#### Our process
+Though not specific to research, we are proud that our mentorship program fosters connections between students and Carleton alumni and other stakeholders. We take several steps to make sure that our program flows smoothly. Our process is as follows:
+
+1. We identify students who could potentially benefit from having a mentor. This could be a fourth-year student who has no idea how to approach the job market when they are graduated, or a student who knows what they want but has no connections in that field or line of work. 
+
+2. These mentees are sent a survey in order to collect information about their program of study, interests, and desires in a mentor. Once the survey responses are collected, the teams sifts over them to make sure that their most important requests are captured. 
+
+3. Based on the mentees' responses, we seek out mentors that we believe would be a good match. For example, a mentee who sees themselves working at the Bank of Canada would be paired with a mentor with work experience there. In other cases, we would also try to pair people together if they studied the same concentration. 
+
+4. Mentors are found through several channels such as social media sites such as LinkedIn, word of mouth by speaking with faculty members, through personal connections, or from pages like [this one](https://carleton.ca/economics/alumni/featured-recent-graduates/). 
+
+5. Once the mentors have been identified and agree to participate, we administer a survey that records their basic information, such as their education and work experience. 
+
+6. The team pairs up the mentee and mentor based on the results of their respective surveys. A joint email sent by CERC initializes the match-making between the two parties. In the email, a document with several suggested questions that can be asked between the parties is attached. If both parties agree to meet in-person, a small amount of cash will be provided to allow the participants to buy a drink or snack at a coffee shop.
+
+7. After the meeting takes place, a follow-up survey is sent to both parties asking them about their experience. Mentees may choose to follow-up with their mentor if they wish in the future. 
+
+<img src="/Users/home_folder/test_github/website_repo_test/images/mentoring.jpg">
+
+<hr>
+
+<h4> <u>Benefits to Mentees</u></h4>
+<ul>
+<li> Students get the chance to network with people who have more experience than them. </li>
+<li> Students do not have to feel hopeless about their future. </li>
+<li> Students can have an intelligent plan going into the future. </li>
+</ul>
+
+<h4><u>Benefits to Mentors</u></h4>
+<ul>
+<li>In most cases, mentors get the chance to help someone at their alma-mater.</li>
+<li>Mentors get the chance to get featured on our website.</li>
+</ul>
+
+<h4><u>Classes of Mentors</u></h4>
+There are three main classes of mentors. The first class are internal mentors - upper year or graduate students who can help students navigate their way through their studies. The second class of mentors are external mentors - Carleton alumni who have graduated from the economics program and are currently working or doing their graduate studies elsewhere. Lastly, affiliate mentors are mentors who have either graduated from Carleton or elsewhere, but did not necessarily study economics. These class of mentors help us address the needs of students who want to explore their range of options in the future.
+
+
+<hr>
+## <u>Featured Mentors</u>
 ### Alexandre Nsakanda
 <!-- This is the first Profile -->
 

@@ -6,16 +6,18 @@ navbar:
       href: index.html
     - text: "Mentoring"
       href: mentoring.html
-    - text: "Academic Research Opportunities"
-      href: academic.html
     - text: "Featured Student Researchers"
       href: researchers.html
+    - text: "Featured Professors"
+      href: professors.html
+    - text: "Academic Research Opportunities"
+      href: academic.html
     - text: "Experiential Learning"
       href: learning.html
     - text: "Content Creation"
       href: content.html
-    - text: "Featured Professors"
-      href: professors.html
     - text: "Learning Pathway"
       href: pathways.html
+    - text: "Inspirations"
+      href: inspirations.html
 output_dir: "docs"

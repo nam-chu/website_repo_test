@@ -4,6 +4,7 @@ output: html_document
 ---
 
 <style type="text/css">
+
 .title {
   display: none;
 }
@@ -13,7 +14,7 @@ output: html_document
 }
 
 .container-full {
-  width: 100%;
+  width: auto;
   margin: 0;
   padding: 0;
 }
@@ -30,37 +31,60 @@ body, html {
 .row {
   margin: 0;
 }
+
 </style>
 
 <div class="container-full">
-  <div class="row" style="padding-top: 30px;">
+<div class="row" style="padding-top: 30px;">
 
 # **The Missing Semester of Your Economics Degree** 
-## About us
+<hr/>
 
-We are a student-led research club that aims to provide undergraduate and graduate students with opportunities to become familiar with economics research.  
+# About us 
 
+We are a student-led organization that seeks to promote student-centered economics research at Carleton University. 
 
-## Mission and Vision
+## Mission
 
-Getting into academic research can be difficult - especially in economics. That's why we felt the need for a club that could prepare students in bite-sized pieces. We feel strongly about providing students with opportunities to reach their full potential no matter their circumstances. 
+Participating in the research process can be difficult - especially in economics. Unlike other disciplines, it can take time -years- to learn all the necessary material to produce good research. But when you do get to learning all that material, what then? Where do you look to find the most up-to-date papers in your discpline? How do you get funding so that you can paid for your work? How do you email a supervisor and pitch your ideas? How do you come up with those ideas in the first place? 
 
-Our vision is simple: give all students, at any stage in their academic careers, the chance to explore what economics research is like and nurture their abilities so they leave Carleton with an extensive array of both industry and research skills. 
+During the summer of 2024, a group of undergraduate and graduate students got together to brainstorm about how to make economics research more accessible to students. What they came up with was an organization that could help **connect**, **educate**, and **promote** economics research to anyone that was willing to learn. 
 
+The need for a organization, <u> of the students </u>, <u> by the students </u>, and <u> for the students </u> of Carleton University was beginning to make more and more sense. 
 
-## Goals and Objectives
+Our most cherished values are at the core of our services: ensuring that  academic research, its processes, the knowledge it generates and network it builds, are freely accessible to any student who pursues it. 
 
-Some of the services we would like to provide are:
+### Core Services
+Our organization hosts our services under three broad categories:  
 
-1. Mentoring Services
-- Students will be paired with a mentor so that they can see how their studies can be used after they leave the school. 
-2. Research Help
-- Students will get to see what academic research is like from a student's perspective. 
-3. R Coding Chapters
-- We want to promote industry standard technology tools which students can use in their own analyses or as a research assistant. 
-- These tools are often not taught in the classroom due to lack of resources of time. 
+  1) Advocate
+  2) Educate
+  3) Affiliate
 
-To learn more about our proposed services, please click on the navigation bar and select the service you would like to learn more about. 
-    </div>
-  </div>
+#### Advocate
+<em>Why should students get into academic research?</em> <br/>
+This is an important question to bear in mind. The answer is not completely obvious to every student. For that reason, we have come up with services that advocate for a student-centered approach to economics research. Some services include:
+
+  a) <u>Featured Student Researchers</u>: a page that features the work of student researchers and its importance to them,
+  b) <u>Content Creation</u>: written content by students about the research process and the skills gained from engaging in it,
+  c) <u>Research Opportunities</u>: research opportunities available to students and the experiences of those who have already taken part in them.  
+
+#### Educate
+<em>How do students learn how to produce good research?</em> <br/>
+We recognized the enormity of taking the first step for students, especially those who's only exposure to research was from a single class. For that reason, we wanted to offer an educational pathway that could provide an intelligent plan for students to follow. Some services include:
+
+  a) <u>Learning Pathways</u>: a page that summarizes material learned in the classroom and translates it to material found in published research  
+  b) <u>Experiential Learning</u>: walk-through projects that replicate research conducted by students or faculty
+
+#### Affiliate
+<em>How do I get help or get my questions answered?</em> <br/>
+Having someone to talk you through building a solid academic portfolio, or being able to connect with faculty is vital. For this reason, we wanted to encourage collaboration between students, faculty, and other stakeholders:
+
+  a) <u>Mentoring</u>: this page will contain our roster of featured mentors
+  
+  b) <u>Featured Professors</u>: this page will feature the work of some economics professors with their work presented in such a way to be highly accessible to students 
+  <hr> </hr>
+To learn more about our core services, please click on one of the tabs at the top of the webpage. 
+</div>
+</div>
 </div>
