@@ -1,0 +1,144 @@
+---
+title: null
+pagetitle: "Our Proposed Services"
+output:
+  html_document:
+    number_sections: false
+---
+
+# Our Proposed Services
+
+<style>
+/* Your existing CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #990000; /* Carleton red */
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Paragraph Styles */
+p {
+  color: #333333;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0 auto 20px auto;
+}
+
+/* Table Styles */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.services-table td {
+  width: 50%;
+  vertical-align: top;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image Styling */
+.service-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover Effects */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container:hover .service-image {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .services-table td {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+<!-- Remove the explicit h1 heading if present -->
+<!-- # Our Proposed Services -->
+
+<table class="services-table">
+<tr>
+<td>
+
+### Informal Research Gatherings
+
+<div class="image-container">
+<img src="images/informal-chats.jpeg" alt="Informal Research Gatherings" class="service-image">
+</div>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel lacus ut nunc pulvinar gravida. Phasellus in mi sit amet purus convallis fermentum a in est. Donec a ligula a justo commodo pulvinar non a lacus.
+</p>
+
+</td>
+<td>
+
+### Formal Events
+
+<div class="image-container">
+<img src="images/research_chats.jpg" alt="Formal Events" class="service-image">
+</div>
+
+<p>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+</p>
+
+</td>
+</tr>
+<tr>
+<td>
+
+### Workshops
+
+<div class="image-container">
+<img src="images/r-workshops.png" alt="Workshops" class="service-image">
+</div>
+
+<p>
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores. Et harum quidem rerum facilis est et expedita distinctio.
+</p>
+
+</td>
+<td>
+
+### Paper Replications
+
+<div class="image-container">
+<img src="images/ECON4903_ppt_Chu.jpg" alt="Paper Replications" class="service-image">
+</div>
+
+<p>
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. Omnis voluptas assumenda est, omnis dolor repellendus.
+</p>
+
+</td>
+</tr>
+</table>

@@ -1,0 +1,11 @@
+---
+title: "Professors"
+output: html_document
+---
+
+Here we can feature the work of some professors in a less "formal" manner. This can make their work more accessible to students. 
+
+For example, 
+
+
+

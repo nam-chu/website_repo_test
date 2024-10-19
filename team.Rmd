@@ -1,0 +1,93 @@
+---
+title: "Our Volunteers"
+output: html_document
+---
+
+<style>
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+  text-align: center;
+  background-color: #FFFFFF; /* White background */
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333333; /* Dark gray text */
+}
+
+/* Header Style */
+h1 {
+  font-size: 2.5em;
+  color: #990000; /* Carleton red */
+  margin-bottom: 0.5em;
+}
+
+/* Team Member Images */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+/* Adjust Nora's image */
+img[alt="Nora Abdelsamie"] {
+  object-position: center 20%;
+}
+
+/* Team Member Names */
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #990000; /* Carleton red */
+  margin-top: 10px;
+}
+
+/* Degree and Year */
+.degree {
+  font-size: 1em;
+  color: #555555;
+  margin-top: 5px;
+}
+
+/* Concentrations and Minors */
+.concentration {
+  font-size: 1em;
+  color: #555555;
+  margin-top: 5px;
+}
+
+/* Table Styles */
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #990000; /* Carleton red */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<!-- Team Members -->
+
+| ![Nora Abdelsamie](images/nora_headshot.jpeg) | ![Ezra Brunet-Jailly](images/ezra-headshot.jpeg) | ![Nam Chu](images/nam_headshot2.jpg) |
+| --- | --- | --- |
+| <span class="name">Nora Abdelsamie</span><br><span class="degree">B.ECON 3rd Year</span><br><span class="concentration">Concentration in Data Science and minor in Health Science</span> | <span class="name">Ezra Brunet-Jailly</span><br><span class="degree">MA Economics</span><br><span class="concentration">&nbsp;</span> | <span class="name">Nam Chu</span><br><span class="degree">B.MATH 3rd Year</span><br><span class="concentration">Combined Honours in Statistics and Economics</span> |
+
+| ![Anne-Shirley Desjardins](images/anne_shirley_headshot.png) | ![Abigail Meloche](images/abigail_portrait.jpeg) |
+| --- | --- |
+| <span class="name">Anne-Shirley Desjardins</span><br><span class="degree">B.ECON 3rd Year</span><br><span class="concentration">Triple Concentrations in Finance, Statistics, and Economic Theory</span> | <span class="name">Abigail Meloche</span><br><span class="degree">B.ECON 4th Year</span><br><span class="concentration">Concentration in Mathematics and Quantitative Economics</span> |

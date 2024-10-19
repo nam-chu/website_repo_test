@@ -1,0 +1,5 @@
+---
+title: "learning pathways"
+output: html_document
+---
+This page could showcase learning pathways for students to become better researchers. There's a lot of stuff that could be placed here. 

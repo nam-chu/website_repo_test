@@ -1,0 +1,80 @@
+---
+title: "test"
+author: "Nam Chu"
+date: "2024-08-08"
+output: html_document
+---
+
+<style type="text/css">
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.profile-container {
+    display: flex;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.profile-info {
+    flex: 2;
+}
+
+.profile-info h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    font-weight: bold;
+}
+</style>
+
+<div class="profile-container">
+<div class="profile-image">
+<img src="/Users/home_folder/test_github/website_repo_test/images/logo.png" alt="Seun A.">
+</div>
+<div class="profile-info">
+<h3>Why Economics?</h3>
+<p>I chose Economics because of the important impact it has in our daily lives such as monetary policy decisions, and I desire to understand and analyze the impact of these economic decisions.</p>
+
+<h3>What has been one highlight of your experience in the program so far?</h3>
+<p>Being part of the Bank of Canada Governor’s Challenge. I got the opportunity to work with a great team and Professor Raúl Razo-Garcia.</p>
+<p><span class="highlight">(Seun and the rest of the Carleton Team were top-5 finalists for the Governor’s Challenge this year! Congratulations Seun!)</span></p>
+
+<h3>What do you plan on doing after graduation?</h3>
+<p>I intend on pursuing a Master’s degree in Economics.</p>
+
+<div class="footer">
+Seun A.<br>
+B.ECON, 4th year
+</div>
+</div>
+</div>
