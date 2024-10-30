@@ -86,7 +86,7 @@ a:hover {
 
 | ![Nora Abdelsamie](images/nora_headshot.jpeg) | ![Ezra Brunet-Jailly](images/ezra-headshot.jpeg) | ![Nam Chu](images/nam_headshot2.jpg) |
 | --- | --- | --- |
-| <span class="name">Nora Abdelsamie</span><br><span class="degree">B.ECON 3rd Year</span><br><span class="concentration">Concentration in Data Science and minor in Health Science</span> | <span class="name">Ezra Brunet-Jailly</span><br><span class="degree">MA Economics</span><br><span class="concentration">&nbsp;</span> | <span class="name">Nam Chu</span><br><span class="degree">B.MATH 3rd Year</span><br><span class="concentration">Combined Honours in Statistics and Economics</span> |
+| <span class="name">Nora Abdelsamie</span><br><span class="degree">B.ECON 3rd Year</span><br><span class="concentration">Concentration in Data Science and Minor in Health Science</span> | <span class="name">Ezra Brunet-Jailly</span><br><span class="degree">MA Economics</span><br><span class="concentration">&nbsp;</span> | <span class="name">Nam Chu</span><br><span class="degree">B.MATH 3rd Year</span><br><span class="concentration">Combined Honours in Statistics and Economics</span> |
 
 | ![Anne-Shirley Desjardins](images/anne_shirley_headshot.png) | ![Abigail Meloche](images/abigail_portrait.jpeg) |
 | --- | --- |
