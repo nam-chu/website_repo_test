@@ -8,4 +8,8 @@ navbar:
       href: team.html
     - text: "Proposed Services"
       href: services.html
+    - text: "PoC: The Day in the Life of an RA"
+      href: ra_training.html
+    - text: "Sample Job Board"
+      href: job_board.html
 output_dir: "docs"

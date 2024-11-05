@@ -11,7 +11,7 @@
 
 
 
-<title>Our Volunteers</title>
+<title>Research Opportunities Database</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -269,145 +269,119 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Our Volunteers</h1>
+<h1 class="title toc-ignore">Research Opportunities Database</h1>
 
 </div>
 
 
 <style>
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-/* Global Styles */
-body {
-  text-align: center;
-  background-color: #FFFFFF; /* White background */
-  font-family: 'Open Sans', Arial, sans-serif;
-  color: #333333; /* Dark gray text */
-}
-
-/* Header Style */
-h1 {
-  font-size: 2.5em;
-  color: #990000; /* Carleton red */
-  margin-bottom: 0.5em;
-}
-
-/* Team Member Images */
-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  margin-bottom: 10px;
-}
-
-/* Adjust Nora's image */
-img[alt="Nora Abdelsamie"] {
-  object-position: center 20%;
-}
-
-/* Team Member Names */
-.name {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #990000; /* Carleton red */
-  margin-top: 10px;
-}
-
-/* Degree and Year */
-.degree {
-  font-size: 1em;
-  color: #555555;
-  margin-top: 5px;
-}
-
-/* Concentrations and Minors */
-.concentration {
-  font-size: 1em;
-  color: #555555;
-  margin-top: 5px;
-}
-
-/* Table Styles */
-table {
-  margin: auto;
-  border-collapse: collapse;
-}
-
-td {
-  padding: 20px;
-  vertical-align: top;
-  text-align: center;
-}
-
-/* Links */
-a {
-  color: #990000; /* Carleton red */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+  .title-block {
+    display: none;
+  }
 </style>
-<!-- Team Members -->
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr>
-<th><img src="images/nora_headshot.jpeg" alt="Nora Abdelsamie" /></th>
-<th><img src="images/ezra-headshot.jpeg"
-alt="Ezra Brunet-Jailly" /></th>
-<th><img src="images/nam_headshot2.jpg" alt="Nam Chu" /></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="name">Nora Abdelsamie</span><br><span
-class="degree">B.ECON 3rd Year</span><br><span
-class="concentration">Concentration in Data Science and Minor in Health
-Science</span></td>
-<td><span class="name">Ezra Brunet-Jailly</span><br><span
-class="degree">MA Economics</span><br><span
-class="concentration"> </span></td>
-<td><span class="name">Nam Chu</span><br><span class="degree">B.MATH 3rd
-Year</span><br><span class="concentration">Combined Honours in
-Statistics and Economics</span></td>
-</tr>
-</tbody>
-</table>
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr>
-<th><img src="images/anne_shirley_headshot.png"
-alt="Anne-Shirley Desjardins" /></th>
-<th><img src="images/abigail_portrait.jpeg"
-alt="Abigail Meloche" /></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="name">Anne-Shirley Desjardins</span><br><span
-class="degree">B.ECON 3rd Year</span><br><span
-class="concentration">Triple Concentrations in Finance, Statistics, and
-Economic Theory</span></td>
-<td><span class="name">Abigail Meloche</span><br><span
-class="degree">B.ECON 4th Year</span><br><span
-class="concentration">Concentration in Mathematics and Quantitative
-Economics</span></td>
-</tr>
-</tbody>
-</table>
+
+  <p>Use the dropdown menu below to explore available research opportunities.</p>
+  <div class="search-container">
+      <div class="search-item">
+          <label for="title">Title</label>
+          <input type="text" id="title" class="search-field" placeholder="Enter title">
+      </div>
+      <div class="dropdown">
+          <label for="organization">Organization</label>
+          <select id="organization" class="search-field">
+              <option value="">- Any -</option>
+              <option value="org1">Carleton University</option>
+              <option value="org2">Bank of Canada</option>
+          </select>
+      </div>
+      <button class="button" onclick="searchOpportunities()">Search</button>
+      <button class="button button-outline" onclick="resetFields()">Reset</button>
+  </div>
+  <div id="results" style="margin-top: 30px;">
+      <!-- Example Result -->
+      <div class="result-item" style="padding: 15px; background: #ffffff; border-radius: 4px; border: 1px solid #ddd; margin-top: 10px;">
+          <h3>Bank of Canada Research Assistant</h3>
+          <p>The Bank of Canada is hiring research assistants</p>
+      </div>
+      <div class="result-item" style="padding: 15px; background: #ffffff; border-radius: 4px; border: 1px solid #ddd; margin-top: 10px;">
+          <h3>Carleton Research Assistant Opening</h3>
+          <p>Insert Carleton Professor is looking for an RA.</p>
+      </div>
+  </div>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    .search-container {
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .search-container label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .search-field {
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        min-width: 200px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        min-width: 200px;
+    }
+    .dropdown select {
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: #0056b3;
+    }
+    .button-outline {
+        background-color: transparent;
+        color: #007bff;
+        border: 1px solid #007bff;
+    }
+    .button-outline:hover {
+        background-color: #e2e6ea;
+        color: #0056b3;
+    }
+</style>
+<script>
+    function searchOpportunities() {
+        // Add logic for searching opportunities (this is a placeholder)
+        alert('Thanks for exploring :)');
+    }
+    
+    function resetFields() {
+        document.getElementById('title').value = '';
+        document.getElementById('organization').selectedIndex = 0;
+    }
+</script>
 
 
 

@@ -1,0 +1,122 @@
+---
+title: "Research Opportunities Database"
+output: html_document
+---
+
+<style>
+  .title-block {
+    display: none;
+  }
+</style>
+
+```{r, echo=FALSE}
+library(htmltools)
+
+HTML(
+  '
+  <p>Use the dropdown menu below to explore available research opportunities.</p>
+  <div class="search-container">
+      <div class="search-item">
+          <label for="title">Title</label>
+          <input type="text" id="title" class="search-field" placeholder="Enter title">
+      </div>
+      <div class="dropdown">
+          <label for="organization">Organization</label>
+          <select id="organization" class="search-field">
+              <option value="">- Any -</option>
+              <option value="org1">Carleton University</option>
+              <option value="org2">Bank of Canada</option>
+          </select>
+      </div>
+      <button class="button" onclick="searchOpportunities()">Search</button>
+      <button class="button button-outline" onclick="resetFields()">Reset</button>
+  </div>
+  <div id="results" style="margin-top: 30px;">
+      <!-- Example Result -->
+      <div class="result-item" style="padding: 15px; background: #ffffff; border-radius: 4px; border: 1px solid #ddd; margin-top: 10px;">
+          <h3>Bank of Canada Research Assistant</h3>
+          <p>The Bank of Canada is hiring research assistants</p>
+      </div>
+      <div class="result-item" style="padding: 15px; background: #ffffff; border-radius: 4px; border: 1px solid #ddd; margin-top: 10px;">
+          <h3>Carleton Research Assistant Opening</h3>
+          <p>Insert Carleton Professor is looking for an RA.</p>
+      </div>
+  </div>'
+)
+```
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    .search-container {
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .search-container label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .search-field {
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        min-width: 200px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        min-width: 200px;
+    }
+    .dropdown select {
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: #0056b3;
+    }
+    .button-outline {
+        background-color: transparent;
+        color: #007bff;
+        border: 1px solid #007bff;
+    }
+    .button-outline:hover {
+        background-color: #e2e6ea;
+        color: #0056b3;
+    }
+</style>
+
+<script>
+    function searchOpportunities() {
+        // Add logic for searching opportunities (this is a placeholder)
+        alert('Thanks for exploring :)');
+    }
+    
+    function resetFields() {
+        document.getElementById('title').value = '';
+        document.getElementById('organization').selectedIndex = 0;
+    }
+</script>
