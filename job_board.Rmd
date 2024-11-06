@@ -114,8 +114,7 @@ HTML(
         // Add logic for searching opportunities (this is a placeholder)
         alert('Thanks for exploring :)');
     }
-    
-    function resetFields() {
+      function resetFields() {
         document.getElementById('title').value = '';
         document.getElementById('organization').selectedIndex = 0;
     }
